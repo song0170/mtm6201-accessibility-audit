@@ -1,6 +1,6 @@
 
 html {
-  font-size: 16px;
+  font-size: 100%;
   box-sizing: border-box;
 }
 
@@ -18,7 +18,8 @@ body {
 
 
 *:focus {
-  outline: none;
+  outline: 3px solid #000;
+  outline-offset: 3px;
 }
 
 a {
@@ -164,7 +165,7 @@ nav a[aria-current="page"] {
   padding: 0 1.5rem;
 }
 
-.section h4 {
+.section h2 {
   font-size: 1.75rem;
   margin: 0 0 2.5rem;
   color: #2c1a0e;
@@ -183,7 +184,7 @@ nav a[aria-current="page"] {
   gap: 0.75rem;
 }
 
-.card h4 {
+.card h3 {
   font-size: 1.15rem;
   margin: 0;
 }
@@ -215,7 +216,7 @@ nav a[aria-current="page"] {
   display: block;
 }
 
-.story-text h4 {
+.story-text h2 {
   margin-bottom: 1rem;
 }
 
@@ -231,7 +232,7 @@ nav a[aria-current="page"] {
   gap: 4rem;
 }
 
-.contact-grid h4 {
+.contact-grid h2 {
   margin-bottom: 1rem;
 }
 
